@@ -40,3 +40,15 @@
 .read-the-docs {
   color: #888;
 }
+
+.app-layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #fff7f0, #ffe4d9);
+}
+
+.main-content {
+  flex: 1;
+  padding: 2rem;
+}
